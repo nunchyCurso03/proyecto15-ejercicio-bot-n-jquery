@@ -3,6 +3,10 @@ $(document).ready(function () {
         alert("Alguien ha pulsado el botón"); // alerta cuando se pulsa el botón
     });
 
+
+
+
+
     $("#boton2").click(function () {
         $(this).hide();  // botón desaparece al clickar
     });
@@ -29,18 +33,25 @@ $(document).ready(function () {
             "nombre": "Joaquín Cardiel",
         }];
 
-        for (i = 0 ; i < hdsMiembros.length; i++ ) {
+        for (i = 0; i < hdsMiembros.length; i++) {
             $("#heroesDelSilencioLista").append(
                 $("<li>")
-                    .text(hdsMiembros[i].nombre)                                      
+                    .text(hdsMiembros[i].nombre)
             );
         }
 
     });
 
 
+    $("#boton5").click(function () {
+        let texto = $("#textAreaBoton5").val(); // Obtener valor del textarea
 
-
+        if (texto === "") {
+            $("#textAreaBoton5").val("Hola"); // Si no hay texto, poner "Hola"
+        } else {
+            $("#textAreaBoton5").val(texto + " " + texto); // Si hay texto, duplicarlo
+        }
+    });
 
 });
 
