@@ -8,7 +8,12 @@
     });
 
 
-  
+
+    
+    $("#boton3").click(function () {
+        var nuevoBoton3= $('<button id="nuevoBoton3">¡Ta Ta Ta....chán!</button>');
+        $("#nuevoBoton3Contenedor").append(nuevoBoton3);
+    });
 
 
 }); 
