@@ -1,0 +1,1 @@
+{"mappings":"AAAA,SAAS,cAAc,CAAC,SAAS,gBAAgB,CAAC,SAAS;IACvD,MAAM;AACR","sources":["src/javascript/index.js"],"sourcesContent":["document.getElementById(\"boton\").addEventListener(\"click\", () => {\n    alert(\"¡Botón clickeado!\");\n  });\n  "],"names":[],"version":3,"file":"index.js.map"}
