@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nunchyCurso03/proyecto16.git"
+    "url": "git+https://github.com/nunchyCurso03/proyecto15-ejercicio-bot-n-jquery.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nunchyCurso03/proyecto16/issues"
+    "url": "https://github.com/nunchyCurso03/proyecto15-ejercicio-bot-n-jquery/issues"
   },
-  "homepage": "https://github.com/nunchyCurso03/proyecto16#readme",
+  "homepage": "https://github.com/nunchyCurso03/proyecto15-ejercicio-bot-n-jquery#readme",
   "dependencies": {
     "jquery": "^3.7.1"
   },
